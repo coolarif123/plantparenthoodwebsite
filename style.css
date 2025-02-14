@@ -1,0 +1,282 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6c584c; /* Primary text color */
+    background-color: #f0ead2; /* Light background */
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background: #adc178; /* Muted green */
+    padding: 20px 0;
+  }
+  
+  header .logo img {
+    height: 180px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: #6c584c; /* Dark brown */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #a98467; /* Warm brown */
+  }
+  
+  /* Hero Section */
+  #hero {
+    display: flex;
+    align-items: center;
+    padding: 1px 0;
+    background-color: #dde5b6; /* Light green */
+  }
+  
+  .hero-content {
+    flex: 1;
+  }
+  
+  .hero-content h1 {
+    color: #6c584c; /* Dark brown */
+  }
+  
+  .hero-content p {
+    color: #6c584c; /* Dark brown */
+  }
+  
+  .hero-content .btn {
+    background: #a98467; /* Warm brown */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .hero-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+  }
+  
+  /* Features Section */
+  #features {
+    padding: 50px 0;
+    background-color: #f0ead2; /* Light background */
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Default image styles */
+  .features-grid img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Individual adjustments */
+  .smart-monitoring-img {
+    width: 150px; /* Adjust this as needed */
+  }
+  
+  .plantagochi-img {
+    width: 180px; /* Adjust this as needed */
+  }
+  
+  
+  .feature {
+    text-align: center;
+    background: #dde5b6; /* Light green */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .feature h3 {
+    color: #6c584c; /* Dark brown */
+  }
+  
+  .feature p {
+    color: #6c584c; /* Dark brown */
+  }
+  
+  /* How It Works Section */
+  #how-it-works {
+    padding: 50px 0;
+    background-color: #adc178; /* Muted green */
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .step {
+    text-align: center;
+    background: #f0ead2; /* Light background */
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+  }
+  
+  .step span {
+    font-size: 24px;
+    color: #a98467; /* Warm brown */
+  }
+  
+  .step p {
+    color: #6c584c; /* Dark brown */
+  }
+  /* Video Section */
+  #video {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #dde5b6; /* Light green */
+  }
+  
+  .video-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .video-wrapper iframe {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  
+  /* Testimonials Section */
+  #testimonials {
+    padding: 50px 0;
+    background-color: #f0ead2; /* Light background */
+  }
+  
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .testimonial {
+    background: #dde5b6; /* Light green */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .testimonial p {
+    color: #6c584c; /* Dark brown */
+  }
+  
+  .testimonial h4 {
+    color: #a98467; /* Warm brown */
+  }
+  
+  /* Pricing Section */
+  #pricing {
+    padding: 50px 0;
+    background-color: #adc178; /* Muted green */
+  }
+  
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .plan {
+    background: #f0ead2; /* Light background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .plan h3 {
+    color: #6c584c; /* Dark brown */
+  }
+  
+  .plan p {
+    color: #a98467; /* Warm brown */
+    font-size: 24px;
+  }
+  
+  .plan ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .plan ul li {
+    color: #6c584c; /* Dark brown */
+  }
+  
+  .plan .btn {
+    background: #a98467; /* Warm brown */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* About Us Section */
+  #about {
+    padding: 50px 0;
+    background-color: #f0ead2; /* Light background */
+  }
+  
+  #about p {
+    color: #6c584c; /* Dark brown */
+  }
+  
+  /* Footer */
+  footer {
+    background: #6c584c; /* Dark brown */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-links a {
+    color: #f0ead2; /* Light background */
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .social-media a {
+    color: #f0ead2; /* Light background */
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .features-grid, .steps, .testimonials-grid, .pricing-grid {
+      grid-template-columns: 1fr;
+    }
+  }
